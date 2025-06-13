@@ -13,7 +13,7 @@
 
 <img src="minibadge-footprint.png" width=500px>
 
-<img src='MiniBadge_Full_NoEdges.png" width=500px>
+<img src="MiniBadge_Full_NoEdges.png" width=500px>
 
 ## A New Minibadge Standard
 
