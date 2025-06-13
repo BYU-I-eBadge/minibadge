@@ -13,6 +13,8 @@
 
 <img src="minibadge-footprint.png" width=500px>
 
+<img src='MiniBadge_Full_NoEdges.png" width=500px>
+
 ## A New Minibadge Standard
 
 Changes:
@@ -92,6 +94,9 @@ If you would like to use I2C for a minibadge there will be an official list of u
 reserve an address open a pull request with the 7-bit address so it can be added.
 
 ## PROG
+
+Removed these pins for keying the minibadge
+
 
 These pins will never be connected to the badge and can be used however you want to use them. They are meant for
 a useful drop in place programming pinout.
