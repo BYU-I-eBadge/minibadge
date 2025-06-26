@@ -122,6 +122,7 @@ and any unverified hardware addresses will be treated like a minibadge which cou
 #### Copyright & License
 
 Copyright, 2025, Danny Tolman, Carson Bush
+
 Copyright, 2017-2023, Luke Jenkins
 
 Licensed under the [Apache License, Version 2.0](./LICENSE) (the "License");
