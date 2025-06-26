@@ -2,6 +2,8 @@
 
 #### [Contributors](https://github.com/lukejenkins/minibadge/graphs/contributors):
 
+* @DanMan
+* @hyperdriveguy
 * @lukejenkins
 * @SparkFun - [SMD Header layout](https://github.com/sparkfun/SparkFun-Eagle-Libraries)
 * @hamster
@@ -9,9 +11,7 @@
 * @sodium-hydrogen
 * @jup1t3r
 
-### Version 2.0  
-
-<img src="minibadge-footprint.png" width=500px>
+### Version 2.1b
 
 <img src="MiniBadge_Full_NoEdges.png" width=500px>
 
@@ -19,10 +19,8 @@
 
 Changes:
 
-* Added the CLK pin.
-* Added dedicated pins for programming microcontrollers on the minibadge.
-* Removed SPI data bus (It was never supported.)
-* Change +5V to +VBATT to more accurately reflect usage. This pin can be anywhere from +5v to +3.3v volts.
+* Removed dedicated pins for programming microcontrollers on the minibadge.
+* Removed non-connected pins to key badges (full 2.0 badges will have floating pins)
 
 ## +VBATT
 
@@ -39,7 +37,7 @@ allow minibadges to have more elaborate functionality without needing to create 
 
 ## I2C
 
-There have occasionally been issues with how the badge communicates with minibadges. To prevent this there is now a standard
+There have occasionally been issues with how the badge communicates with minibadges. To prevent this there is a standard
 for how to use I2C communication.
 
 __NOTE: I2C minibadges should act like a sequential read ROM. Communication will start and stop multiple times for each message so
@@ -93,26 +91,9 @@ __A more detailed explanation for each command can be found in [I2C Example Code
 If you would like to use I2C for a minibadge there will be an official list of used addresses. If you would like to
 reserve an address open a pull request with the 7-bit address so it can be added.
 
-## PROG
-
-Removed these pins for keying the minibadge
-
-
-These pins will never be connected to the badge and can be used however you want to use them. They are meant for
-a useful drop in place programming pinout.
-
-Here are some optional guides:
-
-| Type        | Pin 3 | Pin 4 | Pin 5 | Pin 6 |
-|-------------|-------|-------|-------|-------|
-| AVR ISP     | MISO  | CLK   | MOSI  | RESET |
-| ST-Link SWD | SWIM  | SWCLK | SWDIO | RESET |
-| PIC ICSP    | PGM   | PGC   | PGD   | MCLR  |
-| UART        | RX    | DTR   | TX    | RTS   |
-
 ## NC
 
-These pins are reserved for future use. Do not connect anything including themselves to them as this may cause damage to either
+Thi pin is reserved for future use. Do not connect anything to them as this may cause damage to either
 minibadges, the host badge, or both.
 
 ----
@@ -140,6 +121,7 @@ and any unverified hardware addresses will be treated like a minibadge which cou
 
 #### Copyright & License
 
+Copyright, 2025, Danny Tolman, Carson Bush
 Copyright, 2017-2023, Luke Jenkins
 
 Licensed under the [Apache License, Version 2.0](./LICENSE) (the "License");
