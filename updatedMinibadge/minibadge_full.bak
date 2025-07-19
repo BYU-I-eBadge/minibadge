@@ -24,7 +24,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "updatedMinibadge:MiniBadge_Full"
+		(property "Footprint" "updatedMinibadge:MiniBadge_Full_NoEdges"
 			(at -0.254 21.082 0)
 			(effects
 				(font
