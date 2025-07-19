@@ -1,4 +1,4 @@
-(footprint "MiniBadge_Full_NoEdges"
+(footprint "MiniBadge_Full"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "MiniBadge_Full_NoEdges"
+	(property "Value" "MiniBadge_Full"
 		(at 0 21.59 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -1117,6 +1117,17 @@
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0609a34e-cf3a-4c48-9625-957e07e49a9f")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 20.5 20.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "782faa8b-baa5-4ba6-b272-7022569385d9")
 	)
 	(fp_rect
 		(start 0 0)
