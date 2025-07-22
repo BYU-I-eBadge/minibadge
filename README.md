@@ -2,7 +2,7 @@
 
 #### [Contributors](https://github.com/lukejenkins/minibadge/graphs/contributors):
 
-* @DanMan
+* @taxmandan
 * @hyperdriveguy
 * @lukejenkins
 * @SparkFun - [SMD Header layout](https://github.com/sparkfun/SparkFun-Eagle-Libraries)
