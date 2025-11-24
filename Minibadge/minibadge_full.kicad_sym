@@ -137,7 +137,7 @@
 					)
 				)
 			)
-			(pin input clock
+			(pin bidirectional clock
 				(at 1.27 -11.43 90)
 				(length 3.81)
 				(name "SCL"

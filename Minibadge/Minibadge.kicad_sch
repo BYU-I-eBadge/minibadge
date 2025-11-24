@@ -9,22 +9,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "MB"
-				(at 8.89 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MiniBadge_Full"
-				(at -8.128 23.368 0)
+			(property "Reference" "MB1"
+				(at 13.97 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left)
-					(hide yes)
+				)
+			)
+			(property "Value" "MiniBadge_Full"
+				(at 13.97 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Minibadge:MiniBadge_Full"
@@ -140,7 +140,7 @@
 						)
 					)
 				)
-				(pin input clock
+				(pin bidirectional clock
 					(at 1.27 -11.43 90)
 					(length 3.81)
 					(name "SCL"
